@@ -1,0 +1,38 @@
+  body{
+    display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: flex-start;
+    border: 2px solid black;
+    border-width:thick ;
+ }
+.div1 .card-title {
+  display: flex;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start !important; 
+    text-align: start;
+    margin: auto;
+    position: absolute;  
+    font-size: x-large;
+    overflow: hidden;
+    
+} 
+  .card{
+    display:flex;
+    justify-content: center;
+     margin-top: 60px;
+     margin-left: 30px;
+     width: 300px;
+     height: 300px;
+     overflow: hidden;
+ }
+ .card-body{
+  justify-content: center;
+      background-color: aqua!important;
+      
+     color: black !important;  
+ } 
+ 
